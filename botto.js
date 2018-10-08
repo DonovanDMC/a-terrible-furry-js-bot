@@ -1,8 +1,15 @@
 const Discord = require('discord.js');
-const bot = new Discord.Client();
+const fox = new Discord.Client();
+const { prefix, token } = require('./config.json'); // aka fakeconfig.json :v
 
-bot.on('ready', () => {
+
+fox.on('ready', () => {
     console.log("Can i go back to bed now??");
 }); 
 
-bot.login(big_gay_token)
+fox.on('message', msg => {
+    if (msg.content === `${prefix}ping`) {
+        msg.channel.send("ice of you to check on me")
+    }
+
+fox.login(token)
