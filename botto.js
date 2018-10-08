@@ -9,7 +9,7 @@ fox.on('ready', () => {
 
 fox.on('message', msg => {
     if (msg.content === `${prefix}ping`) {
-        msg.channel.send("ice of you to check on me")
+        msg.channel.send("N-nice of you to check on me, eheh..");
     }
 
 fox.login(token)
