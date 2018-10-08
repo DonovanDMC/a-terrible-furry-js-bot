@@ -12,4 +12,4 @@ fox.on('message', msg => {
         msg.channel.send("N-nice of you to check on me, eheh..");
     }
 
-fox.login(token)
+fox.login(token);
