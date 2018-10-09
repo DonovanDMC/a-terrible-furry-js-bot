@@ -11,6 +11,8 @@ fox.on('message', msg => {
     if (msg.content === `${prefix}ping`) {
         msg.channel.send(`N-nice of you to check on me ${msg.author.username}, eheh..`);
     }
-    
+    else if (msg.content === `${prefix}userinfo`) {
+        pass
+    }
 
 fox.login(token);
