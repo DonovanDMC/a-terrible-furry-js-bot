@@ -12,4 +12,9 @@ fox.on('message', msg => {
     }
 }
 
+    else if (msg.content === `${prefix}userinfo`) {
+        pass
+    }
+
+
 fox.login(token);
